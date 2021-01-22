@@ -1,12 +1,15 @@
 <template>
   <div>
     <h1>Hello world Container</h1>
+    <HelloWorld msg="encapsulated helloWorld !!!!!!" />
   </div>
 </template>
 
 <script>
+import HelloWorld from "../../components/hello-world/HelloWorld";
 export default {
   name: "HelloWorldContainer",
+  components: { HelloWorld },
   props: {
     msg: String,
   },

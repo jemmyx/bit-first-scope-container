@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "@bit/meyer-it.my-first-scope.hello-world": "file:./components/hello-world"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.0",
@@ -38,5 +39,10 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
 }
